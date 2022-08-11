@@ -20,7 +20,8 @@ export const AddCategory = ({onNewCategory}) => {
     return (
         <form    
             style={{
-                width:"100%"
+                width:"100%",
+                marginBottom:"1rem"
             }}
             onSubmit={handleSubmit}>
                 <div style={{
@@ -33,7 +34,7 @@ export const AddCategory = ({onNewCategory}) => {
                         minWidth:"20%"}}>
                         <input 
                             type='text'
-                            placeholder='Categoria'
+                            placeholder='Type something...'
                             value={inputValue}
                             onChange={handleChangeInputValue}
                             style={{

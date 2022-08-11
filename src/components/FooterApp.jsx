@@ -1,16 +1,15 @@
 export const FooterApp = () => {
-    const url = 'Github';
+    const url = 'https://github.com/agustinfarinia1';
 
     return(
-        <div 
-            style={{
-                width:"100%",
-                backgroundColor:"red"
-                }}>
-            <h1   style={{
-                width:"100%",
-                backgroundColor:"red"
-                }}>{url}</h1>
+        <div className="footer">
+            <h4 style={{color:"gray"}}>Made by
+                <a 
+                    href={url}
+                    style={{color:"black"}}>
+                        Agustin
+                </a>
+            </h4>
         </div>
     );
 }

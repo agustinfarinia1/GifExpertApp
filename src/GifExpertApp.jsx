@@ -3,7 +3,7 @@ import { AddCategory, FooterApp, GifGrid } from "./components";
 
 export const GifExpertApp = () => {
 
-    const[categories,setCategories] = useState([]);
+    const[categories,setCategories] = useState(["naruto"]);
 
     const onNewCategory = (newCategory) => {
         if(categories.find((cat) => cat.toUpperCase() === newCategory.toUpperCase())) return;
@@ -17,7 +17,7 @@ export const GifExpertApp = () => {
                 justifyContent: "center",
                 textAlign: "center",
                 minWidth:"10rem"}}>
-            <div >
+            <div>
                 <h1>GifExpertApp</h1>
             </div>
             <AddCategory onNewCategory={onNewCategory}/>

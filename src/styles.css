@@ -2,10 +2,11 @@
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgb(234, 234, 234);
   }
-  
-  body {
-    margin-left: 1rem;
-    margin-right: 1rem;
+
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
   }
   
   input {
@@ -63,6 +64,11 @@
   }
 
   button {
-    background-color: rgb(137, 135, 214);
+    background-color: rgb(109, 104, 255);
     border: 1px solid black;
+  }
+
+  .footer{
+    text-align: center;
+    margin-top: auto;
   }
