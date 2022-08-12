@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba Componente <GridItem/> prueba 01- el campo title y url debe ser isRequired 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="hola"
+      src="https://hola/prueba.com"
+    />
+    <p>
+      hola
+    </p>
+  </div>
+</div>
+`;

@@ -4,9 +4,12 @@
   }
 
   body{
-    display: flex;
-    flex-direction: column;
-    min-height: 97vh;
+    background-color: "gray";
+    width: 100%;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    min-height: 100vh;
   }
   
   input {
@@ -68,7 +71,28 @@
     border: 1px solid black;
   }
 
-  .footer{
+  .container{
+    margin-left: 1%;
+  }
+  
+  .footerApp{
+    background-color: transparent;
+    color:"red";
     text-align: center;
-    margin-top: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .footerApp > h4{
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerApp > h4 > a{
+    margin-left: 5px;
+    background-color: transparent;
   }

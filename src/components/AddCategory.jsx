@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 export const AddCategory = ({onNewCategory}) => {
 
@@ -19,6 +20,7 @@ export const AddCategory = ({onNewCategory}) => {
 
     return (
         <form    
+            aria-label="form-add-category"
             style={{
                 width:"100%",
                 marginBottom:"1rem"
@@ -56,4 +58,8 @@ export const AddCategory = ({onNewCategory}) => {
                 </div>
         </form>
     );
+}
+
+AddCategory.propTypes={
+    onNewCategory : PropTypes.func.isRequired,
 }
