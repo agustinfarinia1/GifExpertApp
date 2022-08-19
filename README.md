@@ -4,3 +4,4 @@ Pagina realizada en el curso de [Udemy](https://www.udemy.com/course/react-cero-
 
 - Pagina realizada con React.
 - Se utilizo la API de [Giphy](https://giphy.com/)
+- Test realizados con Jest + React Testing Library
